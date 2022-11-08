@@ -8,7 +8,5 @@ import "../styles/index.css";
 //import your own components
 import TodoList from "./component/ToDoList.jsx";
 
-//render your react application
-export const userName= 'exampleUser';
 
 ReactDOM.render(<TodoList />, document.querySelector("#app"));
